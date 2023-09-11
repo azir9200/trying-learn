@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <h2>JavaScript HTML Events</h2>
+    <h2 onclick="this.innerHTML='Ooops!'">Click on this text!</h2>
+    <div class="container">
+        <h1 id="id1">My Heading 1</h1>
+
+        <button type="button" onclick="document.getElementById('id1').style.color = 'red'">
+            Click Me!</button>
+
+    </div>
+
+    <div class="container">
+        <h2>Button Style</h2>
+        <button type="button" class="btn btn-danger btn-lg">Danger</button> <br>
+        <button type="button" class="btn btn-info btn-sm btn-block">Danger</button> <br>
+        <button type="button" class="btn btn-success active">Danger</button>
+        <button type="button" class="btn btn-warning btn-xs">Danger</button>
+        <button type="button" class="btn btn-primary disabled">Danger</button>
+    </div>
+    <br>
+    <div class="container">
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Mango</button>
+            <button type="button" class="btn btn-info">apple</button>
+            <button type="button" class="btn btn-danger">Orange</button>
+            <button type="button" class="btn btn-primary">apple</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Description Lists</h1>
+        <p>The dl element indicates a description list:</p>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+        </dl>
+    </div>
+    <div class="container">
+        <button type="button" class="btn btn-info">
+            <span class="glyphicon glyphicon-search"></span> Search
+        </button>
+        <button type="button" class="btn btn-danger">
+            <span class="glyphicon glyphicon-print"></span> Search
+        </button>
+        <button type="button" class="btn btn-info">
+            <span class="glyphicon glyphicon-download"></span> Search
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-primary">azir</button>
+            <button type="button" class="btn btn-primary">ala</button>
+            <button type="button" class="btn btn-primary">amir</button>
+            <button type="button" class="btn btn-danger">shamsul</button>
+            <button type="button" class="btn btn-primary">foyzul</button>
+            <button type="button" class="btn btn-primary">nur</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1 style=color:chartreuse;>h1 Bootstrap heading (36px)</h1>
+        <h2>h2 Bootstrap heading (30px)</h2>
+        <h3 style=color:blue;>h3 Bootstrap heading (24px)</h3>
+        <h4>h4 Bootstrap heading (18px)</h4>
+        <h5>h5 Bootstrap heading (14px)</h5>
+        <h6>h6 Bootstrap heading (12px)</h6>
+    </div>
+    <div class="container">
+        <h1>Highlight Text</h1>
+        <p>Use the mark element to <mark>highlight</mark> text.</p>
+    </div>
+
+    BOOTSTRAPS
+
+    <body>
+        <p>And Prepare To Have Your Mind Blown</p>
+        <button id="hello">Hello</button>
+        <button id="goodbye">Goodbye</button>
+    </body>
+    <p>Call a function once for each array element:</p>
+    <button type="button" onclick="alert('Hello World')">Click Me </button> <br>
+    <a href="#" oncontextmenu="alert('You have Clicked');">right click me </a> <br>
+    <a href="#" onmousemove="alert('You have Clicked');">right click me </a> <br>
+    <textarea name="type me" cols="30" onkeypress="alert('wahts up !')">something here</textarea> <br>
+    <select name="" onchange="alert('why change ?');">
+        <option>Select</option>
+        <option>Male</option>
+        <option value="">Female</option>
+    </select>
+
+
+    <p id="demo"></p>
+
+    <script>
+        const numbers = [45, 4, 9, 16, 25];
+
+        let txt = "";
+        numbers.forEach(myFunction);
+        document.getElementById("demo").innerHTML = txt;
+
+        function myFunction(value, index, array) {
+            txt += value + "<br>";
+        }
+    </script>
+
+
+
+
+
+
+    <script src="practice.js"></script>
+</body>
+
+</html>

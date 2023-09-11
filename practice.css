@@ -1,0 +1,44 @@
+header {
+  background-color: red;
+
+}
+
+li {
+  display: inline-flex;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+}
+
+section {
+  background-color: chocolate;
+  border-width: 5px;
+  border-color: black;
+  border-style: dashed;
+  margin-left: 50px;
+}
+
+#one {
+  background-color: chartreuse;
+  border-width: 50%;
+  border-color: black;
+  border-style: dashed;
+  margin-left: 50px;
+}
+
+#two {
+  background-color: red;
+  border-color: chartreuse;
+  border-width: 8px;
+  border-style: double;
+  border-radius: 25%;
+}
+
+#three {
+  background-color: blue;
+  border: 9px ridge yellow;
+  margin: 50px;
+  padding: 50px;
+}
